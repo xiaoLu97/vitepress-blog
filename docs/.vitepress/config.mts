@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/vitepress-blog/',
   title: "Yonghwa Project",
   description: "It's never too late to start over",
   themeConfig: {
